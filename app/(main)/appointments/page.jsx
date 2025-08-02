@@ -15,6 +15,10 @@ export default async function PatientAppointmentsPage() {
 
   const { appointments, error } = await getPatientAppointments();
 
+  // Debug logging
+  console.log("User:", user);
+  console.log("Appointments result:", { appointments, error });
+
   return (
     <div className="container mx-auto px-4 py-8">
       <PageHeader

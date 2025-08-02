@@ -160,7 +160,8 @@ export async function getDoctorAppointments() {
 
     return { appointments };
   } catch (error) {
-    throw new Error("Failed to fetch appointments " + error.message);
+    console.error("Failed to get doctor appointments:", error);
+    throw new Error("Failed to fetch appointments: " + error.message);
   }
 }
 
