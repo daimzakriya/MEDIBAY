@@ -118,7 +118,13 @@ export default async function VerificationPage() {
                     asChild
                     className="bg-emerald-600 hover:bg-emerald-700"
                   >
-                    <Link href="/contact-support">Contact Support</Link>
+                    <a
+                      href="https://www.linkedin.com/in/daim-zakriya-990157292/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Contact Support
+                    </a>
                   </Button>
                 </>
               )}

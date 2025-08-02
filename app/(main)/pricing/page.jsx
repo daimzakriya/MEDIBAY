@@ -41,13 +41,21 @@ export default async function PricingPage() {
       {/* Pricing Table Section */}
       <Pricing />
 
-      {/* FAQ Section - Optional */}
+      {/* FAQ Section */}
       <div className="max-w-3xl mx-auto mt-16 text-center">
         <h2 className="text-2xl font-bold text-white mb-2">
           Questions? We're Here to Help
         </h2>
         <p className="text-muted-foreground mb-4">
-          Contact our support team at support@medimeet.com
+          Contact our support team on{" "}
+          <a
+            href="https://www.linkedin.com/in/daim-zakriya-990157292/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-emerald-400 hover:underline"
+          >
+            LinkedIn
+          </a>
         </p>
       </div>
     </div>
